@@ -15,3 +15,12 @@ def rainbow_words(text):
         result.append(f"{color}{word}{Color.RESET}")
 
     return " ".join(result)
+
+def rainbow_text(text):
+    result = ""
+    
+    for char in text:
+        color = random.choice(Color.RAINBOW)
+        result += (f"{color}{char}{Color.RESET}")
+
+    return result

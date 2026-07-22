@@ -1,3 +1,3 @@
-from trmstyle import rainbow_words
+from trmstyle import rainbow_text
 
-print(rainbow_words("The words of this text should be in rainbow colors."))
+print(rainbow_text("The characters in this text should be in rainbow color."))
