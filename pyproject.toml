@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trmstyle"
+version = "0.1.0"
+description = "Simple terminal color helper library for python"
+authors = [
+	{name = "Julius Steinhäuser"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/061julius/trmstyle"
